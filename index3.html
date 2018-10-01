@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>flexbox task</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <header><h1>Flex box task</h1></header>
+        <div class="div-home">
+          <div class="div1">
+            <h2>Trecias paragrafas</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="div2">
+              <span class="buttons">
+              <button class="button" onclick="myfunction1()" type="button" name="button">Image1</button>
+              <button class="button" onclick="myfunction2()" type="button" name="button">Image2</button>
+              <button class="button" onclick="myfunction3()" type="button" name="button">Image3</button>
+              <button class="button" onclick="myfunction4()" type="button" name="button">Image4</button>
+              <script>
+                function myfunction1(){
+                  document.getElementById("fotke4").style.display = "none";
+                  document.getElementById("fotke3").style.display = "none";
+                  document.getElementById("fotke2").style.display = "none";
+                  document.getElementById("fotke1").style.display = "block";}
+                function myfunction2()
+                {document.getElementById("fotke4").style.display = "none";
+                document.getElementById("fotke3").style.display = "none";
+                document.getElementById("fotke1").style.display = "none";
+                document.getElementById("fotke2").style.display = "block";}
+                function myfunction3()
+                {document.getElementById("fotke4").style.display = "none";
+                document.getElementById("fotke1").style.display = "none";
+                document.getElementById("fotke2").style.display = "none";
+                document.getElementById("fotke3").style.display = "block";}
+                function myfunction4()
+                {document.getElementById("fotke1").style.display = "none";
+                document.getElementById("fotke3").style.display = "none";
+                document.getElementById("fotke2").style.display = "none";
+                document.getElementById("fotke4").style.display = "block";}
+                function myfunction5()
+                {document.getElementById("fotke1").style.display = "none";
+                document.getElementById("fotke2").style.display = "none";
+                document.getElementById("fotke3").style.display = "none";
+                document.getElementById("fotke4").style.display = "none";}
+              </script>
+
+              </span>
+              <button type="button" onclick="myfunction5()" name="button">Close all images</button>
+
+              <span class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              </span>
+          </div>
+          <div class="div3">
+            <h2>Pirmas paragrafas</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+    </div>
+    <div class="second-div">
+      <h1 class="imagehere">Image here:</h1><br>
+      <img  id="fotke1" src="favorite-1.jpg" alt="eror 404">
+      <img  id="fotke2" src="favorite-2.jpg" alt="eror 404">
+      <img  id="fotke3" src="favorite-3.jpg" alt="eror 404">
+      <img  id="fotke4" src="Rollsafe.jpg" alt="eror 404">
+    </div>
+  </body>
+</html>

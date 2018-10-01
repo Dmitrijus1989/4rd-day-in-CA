@@ -1,0 +1,40 @@
+header {
+  border: black solid 3px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content:space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content:space-between;
+}
+
+.ca-img {
+
+  width: 60px;
+}
+
+.hnav {
+  margin: 10px;
+}
+
+.Registruokis {
+  margin: 15px;
+  border-radius: 0.7em;
+  color: white;
+  background-color: blue;
+  padding: 20px 35px;
+  position: absolute;
+  top: 5px;
+  right:5px;
+  border: blue 1px solid;
+}
+
+article {
+  display: flex;
+}

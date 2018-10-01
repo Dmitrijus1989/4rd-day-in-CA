@@ -1,0 +1,78 @@
+h1 {
+  margin: 0px;
+}
+
+.main {
+  border: solid black 5px;
+  width: 900px;
+  margin: 30px auto 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100px;
+  background-color: purple;
+}
+
+.div-home {
+  display:flex;
+  align-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.div1, .div2, .div3 {
+  margin: 7px;
+  padding: 7px;
+}
+
+.div1, .div3 {
+  flex: 1 150px;
+  background-color: aqua;
+}
+
+.div2 {
+  position: relative;
+  flex: 3 200px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  }
+
+.buttons {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.button {
+  margin:5px;
+}
+
+.lorem {
+  position: absolute;
+  bottom: 0px;
+}
+
+/*----------------------------------------------------------------------------*/
+.imagehere {
+  font-family: 'Bungee Inline', cursive;
+  text-shadow: 7px 7px 7px gray;
+}
+
+.second-div {
+  border:solid #e7e7e7 5px;
+  width: 900px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#fotke1, #fotke2, #fotke3, #fotke4 {
+  display: none;
+}

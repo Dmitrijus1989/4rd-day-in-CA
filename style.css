@@ -1,0 +1,58 @@
+
+body {
+  height: 6000px;
+}
+
+.main {
+  padding: 15px;
+  margin: 20px auto;
+  border: solid silver 1px;
+  width: 500px;
+}
+
+.box {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  float: left;
+  border: solid black 3px;
+  height: 150px;
+  width: 150px;
+  background-color: aqua;
+}
+
+.up {
+  background-color: yellow;
+}
+
+.clear {
+  clear: both;
+}
+
+.relative {
+  position: relative;
+  top: -40px;
+  right: 45px;
+  background-color: salmon;
+
+}
+
+.apsolute {
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+}
+
+.sticky {
+  font-size: 2em;
+  background-color: green;
+  position: sticky;
+  top: 0;
+}
+
+.fixed {
+  font-size: 3em;
+  background-color: pink;
+  position: fixed;
+  top:0;
+  right: 0;
+}

@@ -1,0 +1,105 @@
+
+.main {
+  box-sizing: border-box;
+  padding: 5px;
+  margin:auto;
+  font-size: 2em;
+  border: silver solid 15px;
+  border-radius: 0.4em;
+  width: 600px;
+}
+header {
+  box-sizing: border-box;
+  padding: 5px;
+  border: green solid 5px;
+  border-radius: 0.4em;
+  height: 150px;
+}
+nav {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: pink solid 5px;
+  border-radius: 0.4em;
+  height: 70px;
+}
+article {
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+  border: blue solid 5px;
+  border-radius: 0.4em;
+  height: 500px;
+  width: 69%;
+}
+.div-header {
+  box-sizing: border-box;
+  padding: 5px;
+  border: green solid 5px;
+  border-radius: 0.4em;
+  height: 70px;
+}
+.div-section1 {
+  position: relative;
+  bottom: -179px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: purple solid 5px;
+  border-radius: 0.4em;
+  height: 70px;
+}
+.div-section2 {
+  position: relative;
+  bottom: -183px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: purple solid 5px;
+  border-radius: 0.4em;
+  height: 70px;
+}
+.div-footer {
+  position: relative;
+  bottom: -187px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  border: yellow solid 5px;
+  border-radius: 0.4em;
+}
+.side-div {
+  float: right;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+  border: orange solid 5px;
+  border-radius: 0.4em;
+  height: 500px;
+  width: 30%;
+}
+.div-inside-side-div {
+  height: 10%;
+}
+.div-aside1 {
+  box-sizing: border-box;
+  padding: 5px;
+  border: aqua solid 5px;
+  border-radius: 0.4em;
+  height: 45%;
+}
+.div-aside2 {
+  box-sizing: border-box;
+  padding: 5px;
+  border: aqua solid 5px;
+  border-radius: 0.4em;
+  height: 45%;
+
+}
+footer {
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: yellow solid 5px;
+  border-radius: 0.4em;
+  height: 70px;
+}
