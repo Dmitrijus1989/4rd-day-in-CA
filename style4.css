@@ -37,18 +37,18 @@ header {
     height: 40px;
     border-radius: 1em;
   }
-  .Registruokis {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  margin-right: 20px;
-  border-radius: 0.7em;
-  color: white;
-  background-color: #0974b3;
-  height: 70px;
-  width: 170px;
-  }
+.Registruokis {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px;
+margin-right: 20px;
+border-radius: 0.7em;
+color: white;
+background-color: #0974b3;
+height: 70px;
+width: 170px;
+}
 /*----------------------------------------------------------------------------*/
 article {
   font-size: 130%;
@@ -64,11 +64,22 @@ time {
   color: #0C95E9
 }
 .mid{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-content: stretch;
   font-size: 110%;
   line-height: 2em;
   margin: 0 80px;
 }
+p {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-content: stretch;
+}
 .skaityti{
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +96,10 @@ time {
   padding: 40px;
 }
 ul {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-content: stretch;
   margin: 10px;
   font-size: 110%;
   line-height: 1.5em;
