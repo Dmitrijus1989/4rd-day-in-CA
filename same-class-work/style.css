@@ -1,0 +1,75 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+.logo img {
+  width: 110px;
+  max-width: 300px;
+}
+.phone {
+  color: #999;
+}
+.nav {
+  display: flex;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  padding: 12px 12px;
+  border-bottom: 2px solid #fff;
+}
+.nav ul li:hover {
+  border-bottom: 2px solid #00b0ec;
+  transition: 0.5s;
+}
+.nav ul .registration {
+  margin-left: 50px;
+  background: #00b0ec;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5%;
+}
+.nav ul li.registration:hover {
+  border-bottom: 2px solid #fff;
+}
+/*----------------------------------------------------------------------------*/
+.main {
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  }
+.main-content {
+  display: flex;
+}
+.date {
+  font-size: 130%;
+  color: #00b0ec;
+}
+.mid-content {
+  margin-left: 30px;
+  line-height: 2em;
+}
+.skaityti {
+  display: inline-block;
+  background: #00b0ec;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5%;
+}
+.aside {
+  max-width: 600px;
+  border: 1px solid #999;
+  padding: 18px;
+  line-height: 2em;
+}
